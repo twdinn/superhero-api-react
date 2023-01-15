@@ -1,0 +1,17 @@
+#hero-search {
+  width: 12rem;
+}
+
+#hero-search-btn {
+  margin: 10px;
+  background-color: #518cca;
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 400px) {
+  #hero-search {
+    width: 8rem;
+  }
+}

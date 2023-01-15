@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#e23636, #f78f3f);
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #518cca;
+  color: #000000;
+}
+
+h2,
+p {
+  color: #504a4a;
+  font-weight: 700;
+}
+
+.heroBtns {
+  display: flex;
+}
+
+@media (max-width: 340px) {
+  .heroBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
