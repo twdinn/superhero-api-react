@@ -1,0 +1,73 @@
+img {
+  width: 30rem;
+  height: 35rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  animation: spin 1s linear;
+}
+/* 
+img.spin-in {
+  animation: spin 1s linear;
+} */
+.hero-info {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.hero-info-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.super-powers {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 810px) {
+  img {
+    height: 30rem;
+    width: 25rem;
+  }
+}
+
+@media (max-width: 580px) {
+  img {
+    height: 25rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+  }
+
+  img {
+    height: 20rem;
+    width: 18rem;
+  }
+
+  .stats {
+    font-size: 0.8rem;
+  }
+}
