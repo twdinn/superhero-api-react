@@ -44,7 +44,7 @@ const Superhero = () => {
 
   return (
     <div className="container">
-      <h2>Superhero App</h2>
+      <h2>Superhero Generator</h2>
       <Header />
       <div className="heroBtns">
         <SearchForm setName={setName} name={name} handleSearch={handleSearch} />
