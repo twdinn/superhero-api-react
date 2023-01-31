@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/superhero-api-react/static/css/main.1fc18902.css",
-    "main.js": "/superhero-api-react/static/js/main.f7d71f59.js",
+    "main.js": "/superhero-api-react/static/js/main.53248d93.js",
     "static/js/787.54b00419.chunk.js": "/superhero-api-react/static/js/787.54b00419.chunk.js",
     "index.html": "/superhero-api-react/index.html",
     "main.1fc18902.css.map": "/superhero-api-react/static/css/main.1fc18902.css.map",
-    "main.f7d71f59.js.map": "/superhero-api-react/static/js/main.f7d71f59.js.map",
+    "main.53248d93.js.map": "/superhero-api-react/static/js/main.53248d93.js.map",
     "787.54b00419.chunk.js.map": "/superhero-api-react/static/js/787.54b00419.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fc18902.css",
-    "static/js/main.f7d71f59.js"
+    "static/js/main.53248d93.js"
   ]
 }
