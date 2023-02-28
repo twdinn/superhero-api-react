@@ -15,10 +15,7 @@ img {
 img {
   animation: spin 1s linear;
 }
-/* 
-img.spin-in {
-  animation: spin 1s linear;
-} */
+
 .hero-info {
   display: flex;
   align-items: center;
@@ -47,10 +44,10 @@ h2 {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 630px) {
   img {
-    height: 25rem;
-    width: 20rem;
+    height: 24rem;
+    width: 19rem;
   }
 }
 

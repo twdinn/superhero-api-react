@@ -10,7 +10,6 @@ import axios from "axios";
 import "./Superhero.css";
 import Header from "./Components/Header";
 import SearchForm from "./Components/SearchForm";
-import RandomHero from "./Components/RandomHero";
 import SuperPowers from "./Components/SuperPowers";
 
 // API Token and URL
@@ -47,8 +46,12 @@ const Superhero = () => {
       <h2>Superhero Generator</h2>
       <Header />
       <div className="heroBtns">
-        <SearchForm setName={setName} name={name} handleSearch={handleSearch} />
-        <RandomHero handleRandom={handleRandom} />
+        <SearchForm
+          setName={setName}
+          name={name}
+          handleSearch={handleSearch}
+          handleRandom={handleRandom}
+        />
       </div>
 
       <SuperPowers superHero={superHero} />

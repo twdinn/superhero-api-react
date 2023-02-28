@@ -1,17 +1,30 @@
-#hero-search {
-  width: 12rem;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#hero-search-btn {
-  margin: 10px;
+.hero-search {
+  width: 10rem;
+}
+
+.hero-search-btn {
+  margin: 0.5rem;
   background-color: #518cca;
   width: 4rem;
-  height: 1.5rem;
-  font-size: 0.9rem;
+  height: 2rem;
+  font-size: 0.7rem;
 }
 
-@media (max-width: 400px) {
-  #hero-search {
+@media (max-width: 380px) {
+  .hero-search {
     width: 8rem;
+  }
+  .hero-search-btn {
+    margin: 0.3rem;
+    background-color: #518cca;
+    width: 3rem;
+    height: 2rem;
+    font-size: 0.6rem;
   }
 }

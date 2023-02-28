@@ -1,17 +1,20 @@
 import React from "react";
 import "./SearchForm.css";
 
-const SearchForm = ({ name, handleSearch, setName }) => {
+const SearchForm = ({ name, handleSearch, setName, handleRandom }) => {
   return (
     <form onSubmit={handleSearch}>
       <input
-        id="hero-search"
+        className="hero-search"
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <button id="hero-search-btn" type="submit">
+      <button className="hero-search-btn" type="submit">
         Search
+      </button>
+      <button className="hero-search-btn" onClick={handleRandom}>
+        Random Hero
       </button>
     </form>
   );
