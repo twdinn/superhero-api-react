@@ -68,3 +68,10 @@ h2 {
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 340px) {
+  img {
+    height: 16rem;
+    width: 14rem;
+  }
+}

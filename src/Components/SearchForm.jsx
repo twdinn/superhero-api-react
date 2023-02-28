@@ -10,12 +10,14 @@ const SearchForm = ({ name, handleSearch, setName, handleRandom }) => {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <button className="hero-search-btn" type="submit">
-        Search
-      </button>
-      <button className="hero-search-btn" onClick={handleRandom}>
-        Random Hero
-      </button>
+      <div className="btns">
+        <button className="hero-search-btn" type="submit">
+          Search
+        </button>
+        <button className="hero-search-btn" onClick={handleRandom}>
+          Random Hero
+        </button>
+      </div>
     </form>
   );
 };

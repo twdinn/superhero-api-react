@@ -6,22 +6,19 @@
   background: linear-gradient(#e23636, #f78f3f);
   width: 100%;
   height: auto;
+  font-family: "Bangers", sans-serif;
 }
 
 button {
   background-color: #518cca;
   color: #000000;
+  font-family: inherit;
 }
 
 h2,
 p {
   color: #504a4a;
   font-weight: 700;
-}
-
-.heroBtns {
-  display: flex;
-  flex-direction: column;
 }
 
 @media (max-width: 740px) {

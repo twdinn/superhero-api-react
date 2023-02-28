@@ -1,5 +1,6 @@
 form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -8,11 +9,14 @@ form {
   width: 10rem;
   border: 1px solid #000000;
 }
+.btns {
+  display: flex;
+}
 
 .hero-search-btn {
   margin: 0.5rem;
   background-color: #518cca;
-  width: 4rem;
+  width: 5rem;
   height: 2rem;
   font-size: 0.7rem;
   text-align: center;
